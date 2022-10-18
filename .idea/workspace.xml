@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93978d1-9d4e-4b84-b88c-cd57e3ba16ac" name="Changes" comment="Homework2 end">
-      <change beforePath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/styles/blocks.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666081011701</updated>
-      <workItem from="1666081014062" duration="9241000" />
+      <workItem from="1666081014062" duration="9557000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1666090414984</created>
@@ -73,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666090812922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homework2 end">
+      <created>1666090923884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666090923884</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homework2 end">
+      <created>1666090981436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666090981436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
