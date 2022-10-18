@@ -5,10 +5,12 @@
     text-align: center;
     margin: auto;
 }
+
 .top-block, .middle-block, .bottom-block
 {
     width: 1200px;
 }
+
 .main-block
 {
     display: flex;
@@ -18,6 +20,7 @@
 
 .top-block
 {
+    height: 210px;
     display: flex;
     justify-content: center;
     background: #5ED2B8;
@@ -29,6 +32,7 @@
 }
 .bottom-block
 {
+    height: 300px;
     display: flex;
     justify-content: center;
     background: #5ED2B8;

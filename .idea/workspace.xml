@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f93978d1-9d4e-4b84-b88c-cd57e3ba16ac" name="Changes" comment="Homework1">
+    <list default="true" id="f93978d1-9d4e-4b84-b88c-cd57e3ba16ac" name="Changes" comment="Homework2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork01_HTML Sviehaper/styles/main02.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/styles/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/styles/card.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +45,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666081011701</updated>
-      <workItem from="1666081014062" duration="8535000" />
+      <workItem from="1666081014062" duration="9160000" />
     </task>
+    <task id="LOCAL-00001" summary="Homework1">
+      <created>1666090414984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666090414984</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homework1">
+      <created>1666090455057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666090455057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework2">
+      <created>1666090477474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666090477474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework1" />
+    <MESSAGE value="Homework2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework2" />
   </component>
 </project>
