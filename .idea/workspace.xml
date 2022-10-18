@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f93978d1-9d4e-4b84-b88c-cd57e3ba16ac" name="Changes" comment="Homework2 end">
-      <change afterPath="$PROJECT_DIR$/HomeWork02_HTML_Div_ Sviehaper/bluecard/styles/blocks.css" afterDir="false" />
-    </list>
+    <list default="true" id="f93978d1-9d4e-4b84-b88c-cd57e3ba16ac" name="Changes" comment="Homework2 end" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666081011701</updated>
-      <workItem from="1666081014062" duration="9557000" />
+      <workItem from="1666081014062" duration="9877000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1666090414984</created>
@@ -93,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666090981436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homework2 end">
+      <created>1666091185880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666091185880</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Homework2 end">
+      <created>1666091322056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666091322056</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +127,6 @@
     <MESSAGE value="Homework2" />
     <MESSAGE value="Homework2 end" />
     <option name="LAST_COMMIT_MESSAGE" value="Homework2 end" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
