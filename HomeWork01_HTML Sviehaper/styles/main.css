@@ -1,0 +1,32 @@
+body{
+    background: #A67C00;
+}
+h1{
+    background: #5ED2B8;
+    color: #330570;
+}
+h2{
+    background: #00A480;
+    color: #1B1BB3;
+}
+p{
+    background: #FFDC73;
+    color:#330570;
+    font-size: larger;
+}
+
+img {
+    max-width: 400px;
+    min-width: 200px;
+}
+ul > li {
+    background: #BF9B30;
+    color: #330570;
+    font-size: 20px;
+    list-style-type: square;
+    margin-bottom: 22px;
+}
+
+
+
+
