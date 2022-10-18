@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Макет</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .page {
+            background-color: #ced8e1;
+        }
+        
+        .header {
+            height: 200px;
+        }
+        
+        .main {
+            background-color: #ced8e1;
+        }
+        
+        .footer {
+            background-color: #102b3e;
+        }
+        
+        .topcontent {
+            background-color: #102b3e;
+            height: 600px;
+        }
+        
+        .middlecontent {
+            border: 1px solid#ced8e1;
+        }
+        
+        .bottomcontent {
+            border: 1px solid #ced8e1;
+        }
+        
+        .logo {
+            background-color: #102b3e;
+            width: 250px;
+            height: 100px;
+            border-radius: 25%;
+        }
+        
+        .logo2 {
+            background-color: #6964e2;
+            width: 250px;
+            height: 50px;
+            border-radius: 25%;
+        }
+        
+        .plank {
+            background-color: #6964e2;
+            border-radius: 10%;
+            margin: auto;
+            width: 220px;
+            height: 200px;
+            z-index: 1500;
+        }
+        
+        .plank_circle {
+            background-color: #6964e2;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            z-index: 1500;
+        }
+        
+        .plank_wide {
+            background-color: #6964e2;
+            border-radius: 10%;
+            margin: auto;
+            width: 490px;
+            height: 300px;
+            z-index: 1500;
+        }
+        
+        .plank_small {
+            background-color: #6964e2;
+            border-radius: 10%;
+            margin: auto;
+            width: 70px;
+            height: 60px;
+            z-index: 1500;
+        }
+        
+        .plank_conteiner {
+            position: relative;
+            height: 100px;
+            top: 120px;
+        }
+        
+        .text_conteiner {
+            text-align: center;
+            color: #102b3e;
+        }
+        
+        .text_violet_conteiner {
+            text-align: center;
+            color: #6964e2;
+            width: 50%;
+        }
+        
+        .text_with_plank_conteiner {
+            text-align: left;
+            width: 210px;
+            color: #102b3e;
+        }
+        
+        .text_with_plank_wide_conteiner {
+            text-align: left;
+            width: 490px;
+            color: #102b3e;
+        }
+        
+        .blank_plank {
+            height: 200px;
+        }
+        
+        .arrow {
+            color: #102b3e;
+            font-size: 48px;
+        }
+        
+        #p {
+            margin: 0 0 10px;
+        }
+        
+        @media (min-width: 768px) {
+            /* show 3 items */
+            .carousel-inner .active,
+            .carousel-inner .active+.carousel-item,
+            .carousel-inner .active+.carousel-item+.carousel-item {
+                display: block;
+            }
+            .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+            .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+            .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+                transition: none;
+            }
+            .carousel-inner .carousel-item-next,
+            .carousel-inner .carousel-item-prev {
+                position: relative;
+                transform: translate3d(0, 0, 0);
+            }
+            /* last visible item + 1 */
+            .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+                position: absolute;
+                top: 0;
+                right: -25%;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+            }
+            /* left or forward direction */
+            .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+            .carousel-item-next.carousel-item-left+.carousel-item,
+            .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+            .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item,
+            .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+                position: relative;
+                transform: translate3d(-100%, 0, 0);
+                visibility: visible;
+            }
+            /* farthest right hidden item must be abso position for animations */
+            .carousel-inner .carousel-item-next.carousel-item-left {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+            }
+            .carousel-inner .carousel-item-prev.carousel-item-right {
+                position: absolute;
+                top: 0;
+                left: -25%;
+                z-index: -1;
+                display: block;
+                visibility: visible;
+            }
+            /* right or prev direction */
+            .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+            .carousel-item-prev.carousel-item-right+.carousel-item,
+            .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+            .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item,
+            .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+                position: relative;
+                transform: translate3d(100%, 0, 0);
+                display: block;
+                visibility: visible;
+            }
+        }
+        /* Dropdown Button */
+        
+        .dropbtn {
+            background-color: #ced8e1;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        /* Dropdown button on hover & focus */
+        
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #2980B9;
+        }
+        /* The container <div> - needed to position the dropdown content */
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        /* Dropdown Content (Hidden by Default) */
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        /* Links inside the dropdown */
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        /* Change color of dropdown links on hover */
+        
+        .dropdown-content a:hover {
+            background-color: #ddd
+        }
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        
+        .show {
+            display: block;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="page mx-auto px-0 col-10">
+        <br>
+        <div class="header px-0 mx-0 row col-12">
+            <div class="conteiner px-0  mx-0 col-1">
+            </div>
+            <div class="conteiner px-0  mx-0 col-2">
+                <div class="logo">
+
+                </div>
+            </div>
+            <div class="conteiner px-0  mx-0 col-6">
+            </div>
+            <div class="dropdown col-2">
+                <img src="img\search.png">
+
+                <button onclick="myFunction()" class="dropbtn"> <span class="arrow">&nbsp &#8801 &nbsp</span></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="conteiner px-0  mx-0 col-1">
+            </div>
+        </div>
+
+        <div class=" main px-0  mx-0 row">
+            <div class="topcontent px-0  mx-0  col-12">
+                <div class="blank_plank d-none d-lg-block"></div>
+                <div class=" px-0 mx-0  col-12 d-flex justify-content-center">
+                    <div class="conteiner col-3 ">
+
+                    </div>
+                    <div class="text_violet_conteiner col-6">
+                        <h4> Lorem ipsum dolor sit amet</h4>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor</p>
+                    </div>
+                    <div class="conteiner col-3">
+
+                    </div>
+                    <div class="logo2 ">
+
+                    </div>
+
+                </div>
+                <div class=" px-0 mx-0  col-12 d-flex justify-content-center">
+                    <div class="conteiner col-3 ">
+
+                    </div>
+
+                    <div class="logo2">
+
+                    </div>
+                    <div class="conteiner col-3">
+
+                    </div>
+                </div>
+                <div class="plank_conteiner px-0  mx-0  row ">
+                    <div class="conteiner col-2">
+
+                    </div>
+                    <div class="plank ">
+                    </div>
+                    <div class="plank   d-none d-md-block ">
+                    </div>
+                    <div class="plank  d-none d-lg-block ">
+                    </div>
+                    <div class="conteiner col-2">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!------------------------------------------------------------------------>
+            <div class="middlecontent col-12">
+                <div class="blank_plank "></div>
+                <div class="row ">
+
+                    <div class="text_conteiner px-0  mx-0 col-12">
+                        <h1> Lorem ipsum dolor sit amet</h1>
+                    </div>
+                </div>
+                <div class="row px-0  mx-0 d-flex justify-content-around">
+                    <div class="conteiner px-0  mx-0 col-1">
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0  d-none d-lg-block">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0 d-none d-xl-block">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="conteiner col-1 ">
+                    </div>
+                </div>
+
+                <div class="row px-0  mx-0 d-flex justify-content-around">
+                    <div class="conteiner px-0  mx-0 col-1">
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0 d-none d-lg-block">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="text_with_plank_conteiner px-0  mx-0 d-none d-xl-block">
+                        <div class="plank">
+                        </div>
+                        <h5> Lorem ipsum dolor sit amet</h5>
+
+                    </div>
+                    <div class="conteiner col-1 ">
+                    </div>
+                </div>
+
+                <div class="blank_plank "></div>
+                <div class="text_conteiner px-0  mx-0 col-12">
+                    <h2> Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div class="conteiner px-0  mx-auto col-12 ">
+                    <div class="row col-10 px-0  mx-auto d-flex ">
+                        <div class="conteiner px-0  mx-0 col-1">
+                        </div>
+                        <div class="conteiner px-0  mx-auto col-10 d-flex justify-content-between">
+                            <div class="text_with_plank_wide_conteiner col-5 px-0  mx-0 ">
+                                <div class="plank_wide">
+                                </div>
+                                <h5> Lorem ipsum dolor sit amet</h5>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor</p>
+
+                            </div>
+                            <div class="text_with_plank_wide_conteiner col-5 px-0  mx-0 d-none d-xl-block">
+                                <div class="plank_wide">
+                                </div>
+                                <h5> Lorem ipsum dolor sit amet</h5>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor</p>
+                            </div>
+                        </div>
+                        <div class="conteiner col-1 ">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="conteiner px-0  mx-auto col-12 ">
+                    <div class="row col-10 px-0  mx-auto d-flex ">
+                        <div class="conteiner px-0  mx-0 col-1">
+                        </div>
+                        <div class="conteiner px-0  mx-auto col-10 d-flex justify-content-between">
+                            <div class="text_with_plank_wide_conteiner col-5 px-0  mx-0 ">
+                                <div class="plank_wide">
+                                </div>
+                                <h5> Lorem ipsum dolor sit amet</h5>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor</p>
+
+                            </div>
+                            <div class="text_with_plank_wide_conteiner col-5 px-0  mx-0 d-none d-xl-block">
+                                <div class="plank_wide">
+                                </div>
+                                <h5> Lorem ipsum dolor sit amet</h5>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor</p>
+                            </div>
+                        </div>
+                        <div class="conteiner col-1 ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------>
+        <div class="bottomcontent ">
+            <div class="blank_plank "></div>
+            <div class="text_conteiner px-0  mx-0 col-12">
+                <h2> Lorem ipsum dolor sit amet</h2>
+            </div>
+
+
+            <div class="container-fluid">
+                <div id="carouselExample" class="carousel slide " data-ride="carousel" data-interval="12000">
+                    <div class="carousel-inner row w-100 mx-auto flex-nowrap col-10" role="listbox">
+                        <div class="carousel-item col-md-4 active">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 1">
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 2">
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 3">
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 4">
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 5">
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 6">
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 7">
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <img class="img-fluid mx-auto d-block" src="img\01.png" alt="slide 7">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev col-1" href="#carouselExample" role="button" data-slide="prev">
+                        <i class="fa fa-chevron-left fa-lg text-muted"></i>
+                        <h3 class="arrow">&#10094; </h3>
+                    </a>
+                    <a class="carousel-control-next text-faded col-1" href="#carouselExample" role="button" data-slide="next">
+                        <i class="fa fa-chevron-right fa-lg text-muted"></i>
+                        <h3 class="arrow">&#10095</h3>
+                    </a>
+                </div>
+            </div>
+
+            <!------------------------------------------------------------------------>
+
+            <div class="blank_plank ">
+            </div>
+
+            <div class="conteiner px-0  col-10 ">
+                <div class="row px-0 mx-auto justify-content-between">
+                    <div class="conteiner col-1 ">
+                    </div>
+                    <div class="plank_circle d-none d-lg-block">
+                    </div>
+                    <div class="text_with_plank_wide_conteiner col-7">
+                        <h5> Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor
+                        </p>
+                    </div>
+                    <div class="conteiner col-1 ">
+                    </div>
+                </div>
+            </div>
+            <div class="blank_plank "></div>
+        </div>
+
+
+        <div class="footer px-0 mx-0 ">
+            <div class="plank_conteiner px-0  mx-0  row ">
+                <div class="conteiner col-5">
+
+                </div>
+                <div class="plank_small ">
+                </div>
+                <div class="plank_small  ">
+                </div>
+                <div class="plank_small  ">
+                </div>
+                <div class="conteiner col-5">
+
+                </div>
+            </div>
+            <div class="blank_plank "></div>
+            <div class="row d-flex justify-content-center">
+                <div class="text_violet_conteiner col-2">
+                    <h4> Lorem</h4>
+                </div>
+                <div class="text_violet_conteiner col-2">
+                    <h4> Lorem</h4>
+                </div>
+                <div class="text_violet_conteiner col-2">
+                    <h4> Lorem</h4>
+                </div>
+                <div class="text_violet_conteiner col-2">
+                    <h4> Lorem</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous ">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T " crossorigin="anonymous ">
+    </script>
+    <script>
+        $('#carouselExample').on('slide.bs.carousel', function(e) {
+
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 4;
+            var totalItems = $('.carousel-item').length;
+
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+                var it = itemsPerSlide - (totalItems - idx);
+                for (var i = 0; i < it; i++) {
+                    // append slides to end
+                    if (e.direction == "left") {
+                        $('.carousel-item').eq(i).appendTo('.carousel-inner');
+                    } else {
+                        $('.carousel-item').eq(0).appendTo('.carousel-inner');
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        /* When the user clicks on the button,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
