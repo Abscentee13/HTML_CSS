@@ -1,0 +1,48 @@
+#page {
+    background: #A67C00;
+    width: 1200px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+.top-block, .middle-block, .bottom-block
+{
+    width: 1200px;
+}
+.main-block
+{
+    display: flex;
+    display: block;
+    align-content: center;
+}
+
+.top-block
+{
+    display: flex;
+    justify-content: center;
+    background: #5ED2B8;
+}
+.middle-block
+{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-block
+{
+    display: flex;
+    justify-content: center;
+    background: #5ED2B8;
+}
+
+.card
+{
+    width: 350px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+    background: #5ED2B8;
+
+}
+
+
