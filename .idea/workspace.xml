@@ -43,13 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,8 +58,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666081011701</updated>
-      <workItem from="1666081014062" duration="9877000" />
-      <workItem from="1666207137085" duration="310000" />
+<<<<<<<<< Temporary merge branch 1
+      <workItem from="1666081014062" duration="11838000" />
+=========
+      <workItem from="1666081014062" duration="12245000" />
+>>>>>>>>> Temporary merge branch 2
     </task>
     <task id="LOCAL-00001" summary="Homework1">
       <created>1666090414984</created>
@@ -117,14 +120,32 @@
       <option name="project" value="LOCAL" />
       <updated>1666091322056</updated>
     </task>
-    <task id="LOCAL-00009" summary="Homework add normalize.css">
-      <created>1666094153316</created>
+    <task id="LOCAL-00009" summary="Homework2 end">
+      <created>1666091551939</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1666094153316</updated>
+      <updated>1666091551939</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Homework2 end">
+      <created>1666091746754</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666091746754</updated>
+    </task>
+<<<<<<<<< Temporary merge branch 1
+    <option name="localTasksCounter" value="11" />
+=========
+    <task id="LOCAL-00011" summary="Homework2-2 end">
+      <created>1666093482443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666093482443</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+>>>>>>>>> Temporary merge branch 2
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,9 +165,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework1" />
     <MESSAGE value="Homework2" />
+    <MESSAGE value="Homework2-2start" />
     <MESSAGE value="Homework2 end" />
-    <MESSAGE value="Homework add normalize.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework add normalize.css" />
+    <MESSAGE value="Homework2-2 end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework2-2 end" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
