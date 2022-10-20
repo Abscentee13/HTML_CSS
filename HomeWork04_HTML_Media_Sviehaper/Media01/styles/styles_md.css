@@ -1,0 +1,44 @@
+@media all and (max-width: 992px) {
+    .page {
+        display: block;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .page-header {
+
+    }
+
+    .page-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .page-main-left {
+        display: flex;
+        flex-direction: column;
+        width: 86%;
+    }
+
+    .page-main-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .page-footer {
+
+    }
+
+    .card--body-text
+    {
+        display: none;
+    }
+
+    .card--learn-more-button{
+        display: block;
+    }
+
+
+
+}

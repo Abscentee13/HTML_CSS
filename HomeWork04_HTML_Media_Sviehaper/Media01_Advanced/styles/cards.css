@@ -1,0 +1,84 @@
+#page {
+    background: burlywood;
+    width: 1200px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
+.main-block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.main-block--card{
+    width: 350px;
+    height: 450px;
+    background: bisque;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border-width: thin;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 2%;
+    padding: 25px 0px 25px 0px;
+}
+
+.main-block-card--icon{
+    width: 90px;
+    height: 90px;
+    background: bisque;
+    position: relative;
+    top: -55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-width: thin;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 90%;
+}
+
+.main-block-card--icon-png {
+    width: 60%;
+    height: 60%;
+}
+
+.card--title-text
+{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card--body-text
+{
+    text-align: center;
+    font-size: 28px;
+    color: gray;
+    font-palette: light;
+    margin-bottom: 50px;
+}
+.card--learn-more-button
+{
+    text-align: center;
+    font-size: 26px;
+
+    margin: 0px 60px 0px 60px;
+    padding: 20px 20px 20px 20px;
+
+    border-width: thin;
+    border-style: solid;
+    border-color: #330570;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
