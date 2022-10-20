@@ -34,12 +34,6 @@
     overflow: hidden;
 }
 
-.vertical-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .logo {
     background-color: #102b3e;
     width: 60%;
