@@ -1,0 +1,13 @@
+@media all and (max-width: 992px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .page-main {
+        flex-direction: column;
+    }
+
+    .page-main-right {
+        width: 100%;
+    }
+}

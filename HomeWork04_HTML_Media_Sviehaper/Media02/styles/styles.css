@@ -1,0 +1,140 @@
+.page {
+    background-color: #556655;
+    width: 98vw;
+    height: 95vh;
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.page-header {
+
+}
+
+.page-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.page-main-left {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+
+.page-main-left-top {
+    width: 100%;
+    height: 35vh;
+}
+.page-main-left-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.page-main-right {
+    display: flex;
+    width: 30%;
+}
+
+.page-footer {
+
+}
+
+.main-block--card{
+
+    background: bisque;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border-width: thin;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 2%;
+    padding: 0px 10px 10px 10px;
+    margin: 25px 15px 25px 15px;
+
+}
+
+.main-block-card--icon{
+    width: 50px;
+    height: 50px;
+    background: bisque;
+    position: relative;
+    top: -35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-width: thin;
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 90%;
+}
+
+.main-block-card--icon-png {
+    width: 60%;
+    height: 60%;
+}
+
+.card--title-text
+{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.card--body-text
+{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    font-palette: light;
+    margin-bottom: 15px;
+}
+
+.card--learn-more-button
+{
+    text-align: center;
+    font-size: 26px;
+
+
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 15px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #330570;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
