@@ -1,29 +1,26 @@
 .page {
     background-color: #556655;
-    width: 100%;
-    display: block;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
     align-content: center;
     text-align: center;
-    margin: auto;
 }
 
 .page-header {
-
 }
 
 .page-main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    height: 80vh;
+    align-content: center;
 }
 
 .page-main-left {
     display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 90%;
+    align-content: center;
+    width: 86%;
 }
 
 .page-main-right {
@@ -49,7 +46,7 @@
     border-style: solid;
     border-color: chocolate;
     border-radius: 2%;
-    padding: 0px 10px 25px 10px;
+    padding: 0px 10px 10px 10px;
     margin: 25px 25px 25px 25px;
 }
 
