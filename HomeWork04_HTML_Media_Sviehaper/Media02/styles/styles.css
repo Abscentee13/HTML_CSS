@@ -2,9 +2,11 @@
     background-color: #556655;
     width: 98vw;
     height: 95vh;
-    display: flex;
+    display: block;
     align-content: center;
     text-align: center;
+
+    margin: auto;
 }
 
 .page-header {

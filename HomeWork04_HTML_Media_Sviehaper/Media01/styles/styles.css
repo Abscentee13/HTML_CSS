@@ -2,7 +2,7 @@
     background-color: #556655;
     width: 100vw;
     height: 95vh;
-    display: flex;
+    display: block;
     align-content: center;
     text-align: center;
 }
@@ -20,7 +20,7 @@
 .page-main-left {
     display: flex;
     align-content: center;
-    width: 86%;
+
 }
 
 .page-main-right {
